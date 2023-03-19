@@ -19,6 +19,6 @@ dependencies:
 
 Import get in files that it will be used:
 
-```flutter
+```dart
 import 'package:get/get.dart';
 ```

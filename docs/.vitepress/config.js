@@ -44,13 +44,66 @@ export default {
 
           ],
         },
-        
+        {
+          text: 'Routing',
+          collapsed: true,
+          items: [
+            { text: 'Section', link: '' },
+            { text: 'Section', link: '' },
+          ],
+        },
+        {
+          text: 'State Management',
+          collapsed: true,
+          items: [
+            { text: 'About', link: 'state_management/about.md' },
+            { text: 'Reactive State Manager', link: 'state_management/reactive.md' },
+            { text: 'Simple State Manager', link: 'state_management/simple.md' },
+            { text: 'Mixing two state', link: 'state_management/mixing_state.md' },
+            { text: 'comparison', link: 'state_management/comparison.md' },
+          ],
+        },
+        {
+          text: 'Dependency Manager',
+          collapsed: true,
+          items: [
+            { text: 'Section', link: '' },
+            { text: 'Section', link: '' },
+          ],
+        },
+        {
+          text: 'Utils',
+          collapsed: true,
+          items: [
+            { text: 'Translation', link: 'utils/translation.md' },
+            { text: 'Theme', link: 'utils/theme.md' },
+            { text: 'GetConnect', link: 'utils/get_connect.md' },
+            { text: 'Middleware', link: 'utils/middleware.md' },
+            { text: 'Service', link: 'utils/service.md' },
+            { text: 'Advance API', link: 'utils/service.md' },
+          ],
+        },
+        {
+          text: 'Testing',
+          collapsed: true,
+          items: [
+            { text: 'Test', link: 'testing/test.md' },
+          ],
+        },
         {
           text: 'Resources',
           collapsed: true,
           items: [
             { text: 'Playlists', link: 'resources/playlist.md' },
             { text: 'Tools', link: 'resources/tool.md' },
+            { text: 'Community', link: '' },
+          ],
+        },
+        {
+          text: 'Others',
+          collapsed: true,
+          items: [
+            { text: 'Breaking Changes', link: 'others/breaking_change.md' },
           ],
         },
       ],
