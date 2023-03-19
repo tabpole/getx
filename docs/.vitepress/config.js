@@ -34,42 +34,17 @@ export default {
       sidebar: [
         {
           text: 'Getting Started',
-          collapsed: true,
-          items: [
-            { text: 'Overview', link: 'getting_started/overview.md' },
-            { text: 'Installation', link: 'getting_started/installation.md' },
-            { text: 'Uninstall', link: 'getting_started/uninstall.md' },
-          ],
-        },
-        {
-          text: 'Commands',
           collapsed: false,
           items: [
-            { text: 'Project', link: 'commands/project.md' },
-            { text: 'Model', link: 'commands/model.md' },
-            { text: 'View', link: 'commands/view.md' },
-            { text: 'Controller', link: 'commands/controller.md' },
-            { text: 'Page', link: 'commands/page.md' },
-            { text: 'Screen', link: 'commands/screen.md' },
-            { text: 'Locale', link: 'commands/locale.md' },
+            { text: 'Overview', link: 'getting_started/overview.md' },
+            { text: 'About', link: 'getting_started/about.md' },
+            { text: 'Why Getx', link: 'getting_started/why_getx.md' },
+            { text: 'Install', link: 'getting_started/install.md' },
+            { text: 'Counter App', link: 'getting_started/counter_app.md' },
+
           ],
         },
-        {
-          text: 'Packages',
-          collapsed: true,
-          items: [
-            { text: 'Install', link: 'packages/install.md' },
-            { text: 'Update', link: 'packages/update.md' },
-            { text: 'Remove', link: 'packages/remove.md' },
-          ],
-        },
-        {
-          text: 'Examples',
-          collapsed: true,
-          items: [
-            {  text: 'Page', link: 'examples/page.md'},
-          ],
-        },
+        
         {
           text: 'Resources',
           collapsed: true,
