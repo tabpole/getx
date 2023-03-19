@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as s,a as t}from"./app.93298e25.js";const C=JSON.parse('{"title":"Create Screen","description":"","frontmatter":{},"headers":[],"relativePath":"commands/screen.md","lastUpdated":1679229744000}'),n={name:"commands/screen.md"},c=t("",3),r=[c];function o(l,p,i,d,_,h){return s(),a("div",null,r)}const u=e(n,[["render",o]]);export{C as __pageData,u as default};

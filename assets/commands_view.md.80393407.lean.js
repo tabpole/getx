@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as s,a as t}from"./app.93298e25.js";const m=JSON.parse('{"title":"Create view","description":"","frontmatter":{},"headers":[],"relativePath":"commands/view.md","lastUpdated":1679229744000}'),n={name:"commands/view.md"},o=t("",3),l=[o];function c(p,r,i,d,_,C){return s(),a("div",null,l)}const v=e(n,[["render",c]]);export{m as __pageData,v as default};

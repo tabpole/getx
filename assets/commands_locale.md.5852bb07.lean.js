@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t}from"./app.93298e25.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"commands/locale.md","lastUpdated":1679229744000}'),o={name:"commands/locale.md"};function c(s,r,n,d,l,m){return t(),a("div")}const i=e(o,[["render",c]]);export{_ as __pageData,i as default};
