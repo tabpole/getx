@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as s,a as t}from"./app.d816eea3.js";const F=JSON.parse('{"title":"Change Theme","description":"","frontmatter":{},"headers":[],"relativePath":"utils/theme.md","lastUpdated":1679248851000}'),n={name:"utils/theme.md"},o=t("",8),l=[o];function p(c,r,i,h,d,m){return s(),a("div",null,l)}const g=e(n,[["render",p]]);export{F as __pageData,g as default};

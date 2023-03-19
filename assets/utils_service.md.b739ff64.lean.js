@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as s}from"./app.d816eea3.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"utils/service.md","lastUpdated":null}'),a={name:"utils/service.md"};function r(c,o,n,i,p,d){return s(),t("div")}const m=e(a,[["render",r]]);export{_ as __pageData,m as default};
