@@ -23,8 +23,8 @@ export default {
 
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'About', link: '/about' },
         { text: 'Documentation', link: 'getting_started/overview.md' },
+        { text: 'About', link: 'https://tabpole.github.io' },
         { text: 'Support', link: 'https://www.buymeacoffee.com/alpondith'},
       ],
       socialLinks: [
@@ -109,7 +109,7 @@ export default {
       ],
       footer: {
         message: 'Released under the MIT License.',
-        copyright: 'Copyright © 2023 @tabpole'
+        copyright: 'Copyright © 2023 by tabpole.github.io'
       }
     },
   }
