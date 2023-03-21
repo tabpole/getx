@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: Getx
+  name: Getx Handbook
   text: A Short & Simple Getx Journey
   tagline: Make your development journey smart
   image:

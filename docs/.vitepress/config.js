@@ -1,13 +1,13 @@
 export default {
-    title: 'Getx',
-    description: 'Getx Documentation',
+    title: 'Getx Handbook',
+    description: 'Getx Handbook',
     base : '/getx/',
     lastUpdated: true,
     lang: 'en-US',
     cleanUrls: true,
 
     themeConfig: {
-      siteTitle: 'Getx',
+      siteTitle: 'Getx Handbook',
       logo : '/logo.png',
 
       // algolia: {
@@ -48,8 +48,10 @@ export default {
           text: 'Routing',
           collapsed: true,
           items: [
-            { text: 'Section', link: '' },
-            { text: 'Section', link: '' },
+            { text: 'Simple', link: 'routing/simple.md' },
+            { text: 'Named', link: 'routing/named.md' },
+            { text: 'Nested', link: 'routing/nested.md' },
+            { text: 'Tools', link: 'routing/tools.md' },
           ],
         },
         {
@@ -67,8 +69,8 @@ export default {
           text: 'Dependency Manager',
           collapsed: true,
           items: [
-            { text: 'Section', link: '' },
-            { text: 'Section', link: '' },
+            { text: 'Instancing methods', link: 'dependency_manager/instancing_method.md' },
+            { text: 'Binding', link: 'dependency_manager/binding.md' },
           ],
         },
         {
@@ -80,7 +82,8 @@ export default {
             { text: 'GetConnect', link: 'utils/get_connect.md' },
             { text: 'Middleware', link: 'utils/middleware.md' },
             { text: 'Service', link: 'utils/service.md' },
-            { text: 'Advance API', link: 'utils/service.md' },
+            { text: 'Advance API', link: 'utils/advance_api.md' },
+            { text: 'Tips', link: 'utils/tips.md' },
           ],
         },
         {
