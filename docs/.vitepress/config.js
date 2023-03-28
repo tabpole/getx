@@ -6,6 +6,22 @@ export default {
     lang: 'en-US',
     cleanUrls: true,
 
+    markdown: {
+      theme: 'material-theme-palenight',
+      lineNumbers: true,
+      anchors: {
+        slugify(str) {
+          return encodeURIComponent(str)
+        }
+      }
+    },
+
+    head: [
+      [ 'script', { async: '' , src: "https://www.googletagmanager.com/gtag/js?id=G-6HWY7R9PL3" } ],
+      // Output : <script async src="https://www.googletagmanager.com/gtag/js?id=G-EKY7NL3WQV"></script>
+      [ 'script', {} , "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-6HWY7R9PL3');" ],
+    ],
+
     themeConfig: {
       siteTitle: 'Getx Handbook',
       logo : '/logo.png',
