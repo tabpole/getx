@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as l}from"./app.17cd6fdc.js";const F=JSON.parse('{"title":"Nested Routing","description":"","frontmatter":{},"headers":[],"relativePath":"routing/nested.md","lastUpdated":1679379575000}'),p={name:"routing/nested.md"},e=l("",5),o=[e];function t(r,c,C,D,y,A){return a(),n("div",null,o)}const b=s(p,[["render",t]]);export{F as __pageData,b as default};

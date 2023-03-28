@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,a as e}from"./app.17cd6fdc.js";const F=JSON.parse('{"title":"Simple Routes","description":"","frontmatter":{},"headers":[],"relativePath":"routing/simple.md","lastUpdated":1679379575000}'),l={name:"routing/simple.md"},p=e("",18),o=[p];function t(r,c,i,y,d,C){return n(),a("div",null,o)}const D=s(l,[["render",t]]);export{F as __pageData,D as default};
